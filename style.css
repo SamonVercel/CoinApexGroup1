@@ -1,0 +1,52 @@
+:root {
+  --swiper-navigation-size: 25px;
+  --swiper-theme-color: white;
+}
+
+.question-btn .icon {
+  rotate: 0;
+  transition: all 0.2s;
+}
+.question-btn.show .icon {
+  rotate: -45deg;
+  color: #0fc00f;
+}
+
+#header.stick {
+  position: fixed;
+  top: 0px;
+}
+
+#menu.show {
+  right: 0;
+}
+
+.answer.show {
+  height: 100px;
+}
+
+.answer-5.show {
+  height: 1100px;
+}
+.answer-6.show {
+  height: 110px;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+  .poster {
+    content: url("Image/crypto-squar.png");
+  }
+  .answer.show {
+    height: 100px;
+  }
+
+  .answer-5.show {
+    height: 2000px;
+  }
+  .answer-6.show {
+    height: 140px;
+  }
+}
